@@ -1,0 +1,13 @@
+{
+  "name": "adobe-analytics-connector",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20.17.0"
+  },
+  "scripts": {
+    "discover": "node discover.js",
+    "funnel": "node reportFunnel.js"
+  }
+}
